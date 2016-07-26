@@ -1,1 +1,1 @@
-# ReactJS for DEE
+# ReactJS demo for DEE
