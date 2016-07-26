@@ -11,6 +11,7 @@
   "author": "Saikat Bhattacharya",
   "dependencies": {
     "babel-polyfill": "6.8.0",
+    "babel-preset-stage-1": "^6.5.0",
     "bootstrap": "3.3.6",
     "jquery": "2.2.3",
     "react": "15.0.2",
