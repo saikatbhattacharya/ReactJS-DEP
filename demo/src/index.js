@@ -1,1 +1,9 @@
-console.log('hi');
+import React from 'react';
+import ReactDom from 'react-dom';
+import Home from './components/homePage';
+
+
+ReactDom.render(
+    (<Home/>)
+    ,document.getElementById('app')
+    );
