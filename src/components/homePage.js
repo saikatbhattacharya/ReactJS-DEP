@@ -1,11 +1,10 @@
 import React from 'react';
 import style from '../css/style.css';
+import {Link} from 'react-router';
+
 
 
 class home extends React.Component {
-	onClick = () => {
-		this.context.router.push('/dashboard');
-	}
 
   render = () => {
     return (
@@ -16,7 +15,7 @@ class home extends React.Component {
 						<hr className="colorgraph"></hr><br />
 
 						<input type="text" className="form-control" placeholder="Username"/>
-						<br/><button className="btn btn-lg btn-primary btn-block" value="Login" onClick={this.onClick}>Login</button>
+						<br/><Link to='/dashboard' className="btn btn-lg btn-primary btn-block" value="Login">Login</Link>
 					</div>
 				</div>
 			</div>
@@ -24,8 +23,5 @@ class home extends React.Component {
   }
 }
 
-home.contextTypes = {
-	router: React.PropTypes.object
-}
 
 export default home;
