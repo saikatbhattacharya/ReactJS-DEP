@@ -5,14 +5,14 @@
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle reactjs-starter-kit@1.0.0~prestart: reactjs-starter-kit@1.0.0
 6 verbose lifecycle reactjs-starter-kit@1.0.0~prestart: unsafe-perm in lifecycle true
-7 verbose lifecycle reactjs-starter-kit@1.0.0~prestart: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/pc324156/Downloads/ReactJS-master/demo/node_modules/.bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-8 verbose lifecycle reactjs-starter-kit@1.0.0~prestart: CWD: /home/pc324156/Downloads/ReactJS-master/demo
+7 verbose lifecycle reactjs-starter-kit@1.0.0~prestart: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/pc324156/Documents/React_sessions/003/ReactJS/node_modules/.bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+8 verbose lifecycle reactjs-starter-kit@1.0.0~prestart: CWD: /home/pc324156/Documents/React_sessions/003/ReactJS
 9 silly lifecycle reactjs-starter-kit@1.0.0~prestart: Args: [ '-c', 'babel-node tools/startMessage.js' ]
 10 silly lifecycle reactjs-starter-kit@1.0.0~prestart: Returned: code: 0  signal: null
 11 info lifecycle reactjs-starter-kit@1.0.0~start: reactjs-starter-kit@1.0.0
 12 verbose lifecycle reactjs-starter-kit@1.0.0~start: unsafe-perm in lifecycle true
-13 verbose lifecycle reactjs-starter-kit@1.0.0~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/pc324156/Downloads/ReactJS-master/demo/node_modules/.bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-14 verbose lifecycle reactjs-starter-kit@1.0.0~start: CWD: /home/pc324156/Downloads/ReactJS-master/demo
+13 verbose lifecycle reactjs-starter-kit@1.0.0~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/pc324156/Documents/React_sessions/003/ReactJS/node_modules/.bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+14 verbose lifecycle reactjs-starter-kit@1.0.0~start: CWD: /home/pc324156/Documents/React_sessions/003/ReactJS
 15 silly lifecycle reactjs-starter-kit@1.0.0~start: Args: [ '-c', 'npm-run-all --parallel open:src lint:watch' ]
 16 silly lifecycle reactjs-starter-kit@1.0.0~start: Returned: code: 1  signal: null
 17 info lifecycle reactjs-starter-kit@1.0.0~start: Failed to exec start script
@@ -27,7 +27,7 @@
 18 verbose stack     at maybeClose (internal/child_process.js:850:16)
 18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 19 verbose pkgid reactjs-starter-kit@1.0.0
-20 verbose cwd /home/pc324156/Downloads/ReactJS-master/demo
+20 verbose cwd /home/pc324156/Documents/React_sessions/003/ReactJS
 21 error Linux 3.19.0-56-generic
 22 error argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
 23 error node v5.9.1
