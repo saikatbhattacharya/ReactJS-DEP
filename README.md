@@ -1,4 +1,7 @@
-#Starter Kit for [Building Applications in React and Redux in ES6] for DEP
+#Starter Kit for 'Building Applications in React and Redux in ES6' for DEP
+
+##Discussion forum link
+http://reactjs-dep.freeforums.net/thread/2
 
 ##Getting started
 1. Install [NodeJS](https://nodejs.org)
