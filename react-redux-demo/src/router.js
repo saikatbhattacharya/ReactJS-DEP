@@ -7,7 +7,7 @@ import store from './store';
 
 // Create an enhanced history that syncs navigation events with the store
 export default (
-    <Router>
+    <Router history={browserHistory}>
       <Route path="/" component={homePage} />
     </Router>
 );
